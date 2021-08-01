@@ -32,7 +32,7 @@ label {
 }
 
 input {
-    border: 1px solid #eeeeee;
+    border: 2px solid #000000;
     padding: 12px;
     outline: none;
 }
@@ -81,6 +81,7 @@ button:disabled {
 .centered-form input {
     margin-bottom: 16px;
     width: 100%;
+    caret-color: #6b47b8;
 }
 
 /* Chat Page Layout */
@@ -93,7 +94,7 @@ button:disabled {
     height: 100vh;
     color: white;
     background: #333744;
-    width: 225px;
+    width: 300px;
     overflow-y: scroll;
 }
 
@@ -149,11 +150,12 @@ button:disabled {
 }
 
 .compose input {
-    border: 1px solid #eeeeee;
+    border: 2px solid #6b47b8;
     width: 100%;
     padding: 12px;
     margin: 0 16px 0 0;
     flex-grow: 1;
+    caret-color: #6b47b8;
 }
 
 .compose button {
@@ -174,6 +176,10 @@ button:disabled {
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
+}
+
+.list-item {
+    margin: 10px 0px;
 }
 
 .users {
