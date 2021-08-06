@@ -119,6 +119,16 @@ button:disabled {
     margin-bottom: 16px;
 }
 
+.message__design {
+    color: white;
+    background-color: #7c5cbf;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 2px 0px;
+    max-width: 50%;
+}
+
 .message__name {
     font-weight: 600;
     font-size: 14px;
